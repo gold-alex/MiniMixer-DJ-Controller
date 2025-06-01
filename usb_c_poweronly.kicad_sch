@@ -1,0 +1,58 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8267
+encoding utf-8
+Sheet usb_c_power_only
+Date 2025-04-20
+Rev 1.0
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+
+$Comp
+L USB_C_Receptacle_PowerOnly_24P J_USB_C1
+U 1 1 61E706F1
+P 500 500
+F 0 "J_USB_C1" H 500 480 50  0000 C CNN
+F 1 ""          H 500 520 50  0000 C CNN
+F 2 "USB_C_Receptacle_PowerOnly_24P" H 500 540 50 0001 C CNN
+F 3 ""          H 500 460 50 0001 C CNN
+    1 500 500
+    2 460 500
+    3 500 540
+    4 500 460
+    5 540 500
+    6 420 500
+$EndComp
+
+$Comp
+L Device:R R1
+U 1 1 61E70DF1
+P 460 580
+F 0 "R1"        H 460 560 50  0000 C CNN
+F 1 "5.1k"      H 460 600 50  0000 C CNN
+F 2 ""          H   0   0  50  0001 C CNN
+F 3 ""          H   0   0  50  0001 C CNN
+    1 460 580
+    2 460 620
+$EndComp
+
+$Comp
+L Device:R R2
+U 1 1 61E712F1
+P 540 580
+F 0 "R2"        H 540 560 50  0000 C CNN
+F 1 "5.1k"      H 540 600 50  0000 C CNN
+    1 540 580
+    2 540 620
+$EndComp
+
+Text Label 4 500 480 0    50   5V_POWER_BANK HLabel
+Text Label 4 500 620 0    50   GND           HLabel
+Text Label 4 460 560 0    50   CC1           HLabel
+Text Label 4 540 560 0    50   CC2           HLabel
+
+$EndSCHEMATC

@@ -3,13 +3,395 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "ccef2406-e324-4741-875e-3cd566ce044f")
-	(paper "A4")
+	(paper "A3")
 	(title_block
-		(title "MiniMixer")
+		(title "@opensourcedj on twitter")
 		(rev "1")
-		(company "Alex Goldberg")
+		(company "Alex G")
 	)
 	(lib_symbols
+		(symbol "2025-06-01_06-17-26:CD74HCT125M96"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CD74HCT125M96"
+				(at 30.48 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "D14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "CD74HCT125M96"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CD74HCT125M96"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D14 D14-M D14-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CD74HCT125M96_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -20.32)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -20.32) (xy 53.34 -20.32)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -20.32) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "*1OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "*2OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -2.54 180)
+					(length 7.62)
+					(name "*4OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "4A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 60.96 -7.62 180)
+					(length 7.62)
+					(name "4Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -10.16 180)
+					(length 7.62)
+					(name "*3OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 60.96 -12.7 180)
+					(length 7.62)
+					(name "3A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 60.96 -15.24 180)
+					(length 7.62)
+					(name "3Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -323,7 +705,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:WS2812B"
+		(symbol "LED:WS2812B_passive_vss"
 			(pin_names
 				(offset 0.254)
 			)
@@ -339,13 +721,14 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "WS2812B"
+			(property "Value" "WS2812B_passive_vss"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
@@ -395,7 +778,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812B_0_0"
+			(symbol "WS2812B_passive_vss_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -405,7 +788,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_0_1"
+			(symbol "WS2812B_passive_vss_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -502,7 +885,7 @@
 					)
 				)
 			)
-			(symbol "WS2812B_1_1"
+			(symbol "WS2812B_passive_vss_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -539,7 +922,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "VSS"
@@ -580,428 +963,624 @@
 		)
 	)
 	(junction
-		(at 106.68 41.91)
+		(at 149.86 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02cc7abd-d538-485d-aa88-0afd639a3d4d")
 	)
 	(junction
-		(at 58.42 62.23)
+		(at 101.6 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06896fd8-43a7-48ef-a83e-22859c15458e")
 	)
 	(junction
-		(at 180.34 91.44)
+		(at 223.52 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e4937b-3c5d-48a0-9856-8832d84f5d67")
 	)
 	(junction
-		(at 154.94 52.07)
+		(at 248.92 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f07528b-d24f-4e35-8efa-f885733bc7c5")
+		(uuid "0b299fe1-b685-4faf-a513-d78703618a21")
 	)
 	(junction
-		(at 83.82 71.12)
+		(at 127 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13c835ec-0927-4b62-b1e4-b60b6d55d232")
 	)
 	(junction
-		(at 154.94 91.44)
+		(at 223.52 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "178c5b7e-8f80-4544-934f-7aed05a6b1b8")
+	)
+	(junction
+		(at 101.6 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c829c00-260b-4304-a7ce-ceb891cd16cc")
+	)
+	(junction
+		(at 198.12 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f1ec78f-c501-4672-a7b9-43ed68ed2ea1")
 	)
 	(junction
-		(at 106.68 52.07)
+		(at 262.89 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24568a06-4671-439d-a37d-b1067fae9fd1")
+		(uuid "2036c611-ffb4-4b8c-a216-74ab30ef0c65")
 	)
 	(junction
-		(at 180.34 71.12)
+		(at 139.7 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207bbef0-53ba-4b35-b5c4-0c3ac4b4f864")
+	)
+	(junction
+		(at 223.52 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25fea6a8-c0aa-4de6-8d56-8956efffb9cc")
 	)
 	(junction
-		(at 58.42 71.12)
+		(at 101.6 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b0e9c9d-fe08-41fa-b45f-ec1ecee5d57c")
 	)
 	(junction
-		(at 118.11 62.23)
+		(at 161.29 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb7f623-77f2-425e-81a8-8a26cc53de36")
 	)
 	(junction
-		(at 72.39 91.44)
+		(at 115.57 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e43b529-3454-4059-b211-a9e823426ae1")
 	)
 	(junction
-		(at 72.39 41.91)
+		(at 115.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "333f92b6-5923-42ff-abcc-f8bb3cb36dc6")
 	)
 	(junction
-		(at 118.11 41.91)
+		(at 162.56 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "375a4c47-bcc1-4bb6-b715-66f19debd5d0")
+	)
+	(junction
+		(at 161.29 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390a2b61-932b-4054-83c7-4181abd034ed")
 	)
 	(junction
-		(at 231.14 52.07)
+		(at 271.78 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "449a245b-656d-49d6-834a-0116c80191b8")
+		(uuid "4366689c-9757-466b-881b-1699538b5917")
 	)
 	(junction
-		(at 168.91 41.91)
+		(at 158.75 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4757f535-d1e4-47a2-9a5f-b772d5031422")
+	)
+	(junction
+		(at 176.53 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4967e609-df95-4194-b86d-fe55f09eb9cb")
+	)
+	(junction
+		(at 127 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c65af18-1fce-4eb4-b5de-a6d8b26401ad")
+	)
+	(junction
+		(at 212.09 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4db48f35-366d-44e3-97d8-e1934d787c47")
 	)
 	(junction
-		(at 129.54 81.28)
+		(at 144.78 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5065c47d-474f-4e8c-a9de-c4362b458fca")
+		(uuid "50ebb8b5-6942-43b6-9aa2-6945859cb884")
 	)
 	(junction
-		(at 154.94 41.91)
+		(at 262.89 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e1c2b7-605b-4e4a-b947-02d938d376f2")
+	)
+	(junction
+		(at 149.86 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584c88f7-aa86-474d-a5d9-39a323539774")
+	)
+	(junction
+		(at 186.69 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58bf93bf-a297-4290-8edc-b6b16a7e3fb8")
+	)
+	(junction
+		(at 198.12 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a4bda61-bf06-4a83-9d9a-16e9d7797967")
 	)
 	(junction
-		(at 168.91 71.12)
+		(at 248.92 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b14b4e5-c057-49f3-a443-4baa0d9c3a38")
+	)
+	(junction
+		(at 212.09 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d504e4c-f880-4686-8234-4c43bd64d16c")
 	)
 	(junction
-		(at 118.11 91.44)
+		(at 161.29 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ee4b068-0c0e-45c9-8720-b6479988b471")
 	)
 	(junction
-		(at 194.31 91.44)
+		(at 223.52 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f7f0d77-6aa2-4855-af23-e7c4904922d0")
+	)
+	(junction
+		(at 237.49 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60117509-fb48-4311-8ff8-6760d7814859")
 	)
 	(junction
-		(at 96.52 91.44)
+		(at 161.29 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "669da24e-c63c-4def-b16f-1f266d97d0ad")
+	)
+	(junction
+		(at 139.7 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a5e4538-43c1-4c59-94c8-c3bc56560f1c")
 	)
 	(junction
-		(at 180.34 62.23)
+		(at 212.09 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7ed902-d7f4-4c48-bc3d-41f863b18ae1")
+	)
+	(junction
+		(at 115.57 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d661055-7d22-4603-9489-4940b85acb45")
+	)
+	(junction
+		(at 223.52 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70bf8029-81a6-4957-94da-193b4f5f9bcf")
 	)
 	(junction
-		(at 129.54 71.12)
+		(at 172.72 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71fb12ab-5f2a-4b9d-8bc5-b17c7ccb21e8")
 	)
 	(junction
-		(at 154.94 62.23)
+		(at 198.12 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76c790ae-cd30-4437-857a-01b1de0cbe79")
 	)
 	(junction
-		(at 180.34 41.91)
+		(at 237.49 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7874d063-6212-4c73-ba70-3a6009042f73")
+	)
+	(junction
+		(at 223.52 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "790dfe5a-d350-493a-8df3-8d64fc3aa7e0")
 	)
 	(junction
-		(at 194.31 41.91)
+		(at 237.49 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c73f973-fed9-49a9-aa1d-9b1f2b64cf5f")
 	)
 	(junction
-		(at 219.71 91.44)
+		(at 262.89 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cc67f17-9a61-4780-a8c8-1ebd1a0fa213")
 	)
 	(junction
-		(at 106.68 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ce3227d-0e4b-4a6b-ae21-40cb7669edf2")
-	)
-	(junction
-		(at 83.82 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f21be9e-a860-4057-a3ed-8ed475ccdadc")
-	)
-	(junction
-		(at 106.68 62.23)
+		(at 149.86 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80dc778a-82a1-4893-9cd9-35d7713c510f")
 	)
 	(junction
-		(at 106.68 91.44)
+		(at 139.7 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84a7903d-6360-48f9-8bd7-80c83470510f")
+	)
+	(junction
+		(at 149.86 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "851ad3e0-4060-4fab-861e-e8a9fbaa195a")
 	)
 	(junction
-		(at 205.74 62.23)
+		(at 101.6 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "892255c1-6df2-417c-ad28-e87e5f1c748a")
+	)
+	(junction
+		(at 248.92 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d740be7-e2ef-49eb-bbca-adc2c8633c31")
 	)
 	(junction
-		(at 205.74 91.44)
+		(at 248.92 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e57e033-d6a1-4a31-8999-62978facc3ab")
 	)
 	(junction
-		(at 219.71 62.23)
+		(at 115.57 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9053c756-5e1b-48b5-a7ea-68f02444070d")
+	)
+	(junction
+		(at 262.89 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90db3b35-d309-4608-9ab7-88576bce9dad")
 	)
 	(junction
-		(at 118.11 71.12)
+		(at 161.29 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "912b61f3-5bbf-49ad-82b2-6a97b5a8da3c")
+	)
+	(junction
+		(at 161.29 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92b56aed-48a0-48e2-ad0a-fd85da53d4d3")
 	)
 	(junction
-		(at 154.94 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92bfc11d-cc0b-4429-98b8-eac1f511d9b8")
-	)
-	(junction
-		(at 205.74 71.12)
+		(at 248.92 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9484900b-0c72-46e0-892c-88c3ec96ca29")
 	)
 	(junction
-		(at 219.71 41.91)
+		(at 262.89 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af6fa7c-1075-4301-b68f-bbc730868ff0")
 	)
 	(junction
-		(at 72.39 62.23)
+		(at 115.57 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a072ccfb-9a18-4c49-afbb-be909a998c3a")
 	)
 	(junction
-		(at 143.51 71.12)
+		(at 172.72 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a22f8bd8-89cb-40cf-814d-5fc8ef85d148")
+	)
+	(junction
+		(at 186.69 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a481cc8b-989f-44bf-a1e0-3a4eef67434f")
 	)
 	(junction
-		(at 83.82 91.44)
+		(at 101.6 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d76a50-a078-4fd0-a1f0-cd6b9166dd90")
+	)
+	(junction
+		(at 127 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7209d25-c5e4-41fd-b138-e68ee5ba40cf")
 	)
 	(junction
-		(at 83.82 62.23)
+		(at 115.57 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8cbae5a-af9d-4f8f-8430-e8b260def7fd")
+	)
+	(junction
+		(at 127 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad6dbd03-e8b8-4e8d-8dc2-a75ca8a33a67")
 	)
 	(junction
-		(at 83.82 52.07)
+		(at 237.49 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1a44a34-75ec-4d78-a863-54ef4b97d890")
+		(uuid "adab3e51-8479-458a-91d7-de07e5dee0a8")
 	)
 	(junction
-		(at 154.94 71.12)
+		(at 144.78 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4e73ff9-dab7-4382-b16e-6e2ff90d0648")
+	)
+	(junction
+		(at 198.12 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4ffafbb-6a02-4407-a89a-6ea7f26f89c4")
 	)
 	(junction
-		(at 129.54 62.23)
+		(at 172.72 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b931efab-4b01-4376-8908-a5e59ac51a3c")
 	)
 	(junction
-		(at 83.82 41.91)
+		(at 127 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9343b72-ab75-4dd4-97c2-434f1cb9f9ea")
 	)
 	(junction
-		(at 180.34 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb683b55-0451-443c-b6f0-be2c94051aad")
-	)
-	(junction
-		(at 231.14 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb8ee69f-efa0-4293-93ea-9247e1252abc")
-	)
-	(junction
-		(at 72.39 71.12)
+		(at 115.57 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c27bfa22-12ee-4f16-bf7d-a3c7736c1c73")
 	)
 	(junction
-		(at 180.34 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca3027cf-89ff-43b9-a4b0-2a52bc639dd6")
-	)
-	(junction
-		(at 96.52 41.91)
+		(at 139.7 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccc97d55-d85c-4b26-b46a-0a53786921ee")
 	)
 	(junction
-		(at 143.51 62.23)
+		(at 186.69 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2c52c3-da16-4e3c-bb3a-5cfaeca061d1")
 	)
 	(junction
-		(at 106.68 71.12)
+		(at 149.86 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf7e311f-8997-4a11-a621-7d79b4d01e04")
 	)
 	(junction
-		(at 58.42 91.44)
+		(at 101.6 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d23e360c-d4f6-4538-a4d1-dbe610beab7d")
 	)
 	(junction
-		(at 205.74 81.28)
+		(at 101.6 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2fb5e1f-7e56-4e0d-afdd-f8baa5b5806f")
+		(uuid "d3274b20-b1d0-4bf9-ac17-fe5919bfeda4")
 	)
 	(junction
-		(at 194.31 62.23)
+		(at 237.49 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d50a94d0-3811-4279-8245-e6c651dd6f78")
 	)
 	(junction
-		(at 168.91 91.44)
+		(at 212.09 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6666a37-4d75-4c68-83ca-3c54c9075278")
 	)
 	(junction
-		(at 168.91 62.23)
+		(at 130.81 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8940917-b88d-4bf6-a289-477c577ce510")
+	)
+	(junction
+		(at 176.53 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d90be01d-cc72-48e8-bdf8-6d42f7821ee1")
+	)
+	(junction
+		(at 130.81 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da1bc0f5-7c87-4ad6-ba3f-36547d8840ec")
+	)
+	(junction
+		(at 212.09 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db32dd0d-dde2-4019-8114-4d23a85690e1")
 	)
 	(junction
-		(at 58.42 41.91)
+		(at 127 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd759688-11f0-484e-89e1-0c351314caf5")
+	)
+	(junction
+		(at 101.6 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df65a20b-7184-4827-9964-b342ff31d3bd")
 	)
 	(junction
-		(at 205.74 41.91)
+		(at 186.69 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd019b2-0e22-4ff8-bd53-3d066ef9af6a")
+	)
+	(junction
+		(at 248.92 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfe569b2-ce1b-40f6-8c14-ea11eeca147f")
 	)
 	(junction
-		(at 219.71 71.12)
+		(at 262.89 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e290c2cc-13a0-4c30-aaab-d3e1fe5943eb")
 	)
 	(junction
-		(at 96.52 62.23)
+		(at 139.7 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e65beadc-bad1-4f97-aa9e-69819e9dd019")
 	)
 	(junction
-		(at 129.54 41.91)
+		(at 149.86 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3ca871-da13-4c38-8614-faf0621f720b")
+	)
+	(junction
+		(at 172.72 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee13a1e9-5c3b-4dc8-89ef-91587909041c")
+	)
+	(junction
+		(at 172.72 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f03078de-4130-4cc3-b920-1f6d1b917d30")
 	)
 	(junction
-		(at 96.52 71.12)
+		(at 139.7 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0e4d553-9184-416a-9087-86e484a10c08")
 	)
 	(junction
-		(at 194.31 71.12)
+		(at 115.57 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f215640d-8b6b-4110-926b-81ca62c09960")
+	)
+	(junction
+		(at 237.49 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3941e42-aa93-493c-8300-a5923a2f0a8f")
 	)
 	(junction
-		(at 143.51 41.91)
+		(at 198.12 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3b865fd-3eff-47cd-9a1c-6f8cafc06c56")
+	)
+	(junction
+		(at 212.09 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f3f7af-379a-4f59-8584-b09385b6c566")
+	)
+	(junction
+		(at 186.69 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5afed6a-e545-4e2f-b348-406be34ac6eb")
 	)
 	(junction
-		(at 129.54 52.07)
+		(at 162.56 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f787ac0f-363e-447a-932c-06da1f9b3915")
+		(uuid "f78b1d30-35b7-4953-afa1-e7d0a098e125")
 	)
 	(junction
-		(at 129.54 91.44)
+		(at 198.12 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79b4de9-0276-4159-beac-304ae577192c")
+	)
+	(junction
+		(at 172.72 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faf88d8f-3525-40aa-aded-506d4b4348bf")
 	)
 	(junction
-		(at 143.51 91.44)
+		(at 186.69 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb519e51-3b02-4767-9858-2fdb92c7c7d3")
 	)
-	(junction
-		(at 205.74 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff6bca42-3fe9-45e2-ac96-99396724589d")
+	(no_connect
+		(at 132.08 66.04)
+		(uuid "2dd45e6f-32bf-4b63-9145-866031afd4f5")
+	)
+	(no_connect
+		(at 71.12 71.12)
+		(uuid "32a6860e-347e-47ed-a8ae-f9ae7c1ed9ad")
+	)
+	(no_connect
+		(at 71.12 73.66)
+		(uuid "5f99e503-9b68-4d76-97e2-ff6accb46b63")
+	)
+	(no_connect
+		(at 132.08 76.2)
+		(uuid "74baff07-297b-4a57-8ab2-d31404ab5711")
+	)
+	(no_connect
+		(at 132.08 73.66)
+		(uuid "8088b498-c15d-43b1-bb63-c90ac5ddbc44")
+	)
+	(no_connect
+		(at 132.08 68.58)
+		(uuid "83f739e4-08db-4d30-944d-0a0821a5d3dd")
+	)
+	(no_connect
+		(at 184.15 208.28)
+		(uuid "a9ebb5b1-b88c-4e5e-aeb4-1cb8959d8f96")
 	)
 	(wire
 		(pts
-			(xy 154.94 91.44) (xy 168.91 91.44)
+			(xy 198.12 138.43) (xy 212.09 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1011,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 118.11 71.12)
+			(xy 149.86 118.11) (xy 161.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1021,7 +1600,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 168.91 62.23)
+			(xy 223.52 176.53) (xy 237.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08749f1b-2765-451e-a84c-0427f08751c7")
+	)
+	(wire
+		(pts
+			(xy 212.09 106.68) (xy 212.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1031,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 143.51 62.23)
+			(xy 172.72 109.22) (xy 186.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1041,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 41.91) (xy 58.42 41.91)
+			(xy 88.9 88.9) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 59.69) (xy 180.34 62.23)
+			(xy 223.52 106.68) (xy 223.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1650,27 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 41.91) (xy 106.68 41.91)
+			(xy 186.69 173.99) (xy 186.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eac26b2-ad36-4c0e-a865-fe87488a4c42")
+	)
+	(wire
+		(pts
+			(xy 101.6 176.53) (xy 115.57 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ed15112-28e6-4f2c-8c01-66dcb1e53aa3")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1071,17 +1680,87 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 186.69 81.28)
+			(xy 186.69 176.53) (xy 198.12 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13754167-4612-4873-be47-3e92989904e2")
+		(uuid "11b62b30-e670-4f33-aadd-de861fe7536e")
 	)
 	(wire
 		(pts
-			(xy 205.74 91.44) (xy 219.71 91.44)
+			(xy 88.9 158.75) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f8ee17-ea60-4657-aafb-029a45f705e9")
+	)
+	(wire
+		(pts
+			(xy 248.92 156.21) (xy 262.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12549e52-508e-46b4-9ac8-93de6b11d557")
+	)
+	(wire
+		(pts
+			(xy 288.29 191.77) (xy 73.66 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127959c0-02a9-46c7-a01d-8af87a572708")
+	)
+	(wire
+		(pts
+			(xy 147.32 166.37) (xy 153.67 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1289be24-476f-454b-86f2-9f75274f2986")
+	)
+	(wire
+		(pts
+			(xy 115.57 218.44) (xy 130.81 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13233476-4eff-4059-a1b0-18e9a3a3f743")
+	)
+	(wire
+		(pts
+			(xy 262.89 156.21) (xy 262.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1347086f-9289-455e-bb9c-8068781ab828")
+	)
+	(wire
+		(pts
+			(xy 127 176.53) (xy 139.7 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e41759-6dd3-4951-af2a-6ec28177caed")
+	)
+	(wire
+		(pts
+			(xy 248.92 138.43) (xy 262.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1770,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 106.68 91.44)
+			(xy 149.86 135.89) (xy 149.86 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1101,17 +1780,47 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 161.29 52.07)
+			(xy 248.92 176.53) (xy 262.89 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "162257a8-e145-4805-867a-070b68679d81")
+		(uuid "15a08265-96f2-42c7-9ebc-db68e6498d54")
 	)
 	(wire
 		(pts
-			(xy 31.75 49.53) (xy 31.75 52.07)
+			(xy 194.31 166.37) (xy 204.47 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16d7c94f-3b9d-41ea-99b2-202cda62079c")
+	)
+	(wire
+		(pts
+			(xy 127 173.99) (xy 127 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178a9a67-24e3-4093-8ebc-eb66577b95fb")
+	)
+	(wire
+		(pts
+			(xy 176.53 215.9) (xy 176.53 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178fa379-4f9c-498e-9a21-6cda22915fd3")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 72.39 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1121,17 +1830,47 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 88.9 81.28)
+			(xy 162.56 198.12) (xy 176.53 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19e50b96-30a1-4fe5-82d9-dfd4cb49c023")
+		(uuid "1947b72c-5103-4d9b-bbe7-c4a296223d60")
 	)
 	(wire
 		(pts
-			(xy 106.68 62.23) (xy 118.11 62.23)
+			(xy 198.12 156.21) (xy 212.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a07a175-2549-41fb-8712-c7b89c3bcaa8")
+	)
+	(wire
+		(pts
+			(xy 73.66 191.77) (xy 73.66 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7679a5-0337-4ac8-8179-3a5a9e88a7df")
+	)
+	(wire
+		(pts
+			(xy 101.6 156.21) (xy 115.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d85dfc6-be9e-480d-811b-9a3881cf4607")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1880,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 58.42 91.44)
+			(xy 96.52 208.28) (xy 107.95 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b4e373-47ef-4fdc-b5c7-c8c658c91da6")
+	)
+	(wire
+		(pts
+			(xy 101.6 135.89) (xy 101.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1900,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 41.91) (xy 219.71 41.91)
+			(xy 248.92 88.9) (xy 262.89 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1910,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 41.91) (xy 180.34 41.91)
+			(xy 212.09 88.9) (xy 223.52 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 91.44) (xy 205.74 91.44)
+			(xy 237.49 138.43) (xy 248.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1930,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 129.54 91.44)
+			(xy 101.6 173.99) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b63f81-1d48-43d3-ba47-3804833a1de8")
+	)
+	(wire
+		(pts
+			(xy 161.29 138.43) (xy 172.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1191,7 +1950,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 91.44) (xy 143.51 91.44)
+			(xy 172.72 138.43) (xy 186.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1201,7 +1960,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 231.14 91.44)
+			(xy 274.32 135.89) (xy 274.32 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 71.12) (xy 205.74 71.12)
+			(xy 237.49 118.11) (xy 248.92 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1221,17 +1980,27 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 81.28) (xy 231.14 83.82)
+			(xy 115.57 173.99) (xy 115.57 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b4149aa-6baa-4cb2-919f-19f99daaacb1")
+		(uuid "2aa01ce9-8988-400e-a3cb-94f7b25875c7")
 	)
 	(wire
 		(pts
-			(xy 58.42 62.23) (xy 72.39 62.23)
+			(xy 162.56 218.44) (xy 176.53 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca3e1f9-9c88-4a36-82d0-3870a7cc51b3")
+	)
+	(wire
+		(pts
+			(xy 101.6 109.22) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +2010,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 62.23) (xy 129.54 62.23)
+			(xy 139.7 173.99) (xy 139.7 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b8f781-5cbc-4186-b613-afd7277bfea8")
+	)
+	(wire
+		(pts
+			(xy 161.29 109.22) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1251,7 +2030,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 41.91) (xy 83.82 50.8)
+			(xy 127 88.9) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1261,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 118.11 41.91)
+			(xy 149.86 88.9) (xy 161.29 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 58.42 83.82)
+			(xy 101.6 118.11) (xy 101.6 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1281,7 +2060,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 83.82)
+			(xy 149.86 176.53) (xy 161.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3493a5da-624f-45e7-9871-0171d0ee7d8c")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 127 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1291,7 +2080,47 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 67.31) (xy 31.75 67.31)
+			(xy 130.81 198.12) (xy 144.78 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369d6b86-027d-44dd-9bfa-47e0f6b36d76")
+	)
+	(wire
+		(pts
+			(xy 130.81 215.9) (xy 130.81 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cc02ca-2347-4790-b549-baa9e2499a7c")
+	)
+	(wire
+		(pts
+			(xy 115.57 198.12) (xy 130.81 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3905ad4d-7c57-4d70-8bab-a7b32258b1b5")
+	)
+	(wire
+		(pts
+			(xy 158.75 60.96) (xy 271.78 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3947afba-98fa-4945-bb61-5c2d49869e94")
+	)
+	(wire
+		(pts
+			(xy 287.02 114.3) (xy 74.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1301,7 +2130,57 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 41.91) (xy 205.74 41.91)
+			(xy 172.72 173.99) (xy 172.72 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c12d90-8dc8-45a5-bdc7-52c9b20a596f")
+	)
+	(wire
+		(pts
+			(xy 88.9 198.12) (xy 101.6 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1527ff-0aa1-4083-84f0-bf5604938ecd")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b38981f-0b48-476a-aef9-5143df826b54")
+	)
+	(wire
+		(pts
+			(xy 115.57 156.21) (xy 127 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb41c91-b578-418f-bbaa-e5610dd8daf1")
+	)
+	(wire
+		(pts
+			(xy 172.72 156.21) (xy 172.72 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb44468-46ce-4c88-b72d-a6e9561c49ae")
+	)
+	(wire
+		(pts
+			(xy 237.49 88.9) (xy 248.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1311,7 +2190,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 110.49 81.28)
+			(xy 101.6 198.12) (xy 101.6 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e97c770-63e5-4873-8cab-9424636697fd")
+	)
+	(wire
+		(pts
+			(xy 147.32 128.27) (xy 153.67 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1321,7 +2210,27 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 52.07) (xy 64.77 52.07)
+			(xy 88.9 88.9) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418822ca-6548-4b8f-a4cf-da92430bc121")
+	)
+	(wire
+		(pts
+			(xy 223.52 156.21) (xy 223.52 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ebd5f1-904c-4b28-ae88-5c5aff2a40b6")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 107.95 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1331,17 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 52.07) (xy 83.82 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454856d1-117e-4e2a-adb2-249d3d9cd374")
-	)
-	(wire
-		(pts
-			(xy 219.71 41.91) (xy 219.71 44.45)
+			(xy 262.89 88.9) (xy 262.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1351,7 +2250,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 59.69) (xy 231.14 62.23)
+			(xy 73.66 166.37) (xy 81.28 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c9925f-a215-4aef-b7f0-7fe853786605")
+	)
+	(wire
+		(pts
+			(xy 274.32 106.68) (xy 274.32 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1361,7 +2270,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 41.91) (xy 96.52 44.45)
+			(xy 212.09 156.21) (xy 212.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477d7fcc-9f19-4b08-8f25-2bfc49281f90")
+	)
+	(wire
+		(pts
+			(xy 139.7 88.9) (xy 139.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1371,17 +2290,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 52.07) (xy 83.82 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49bb0248-126d-46c4-a3b5-9e2583fef70d")
-	)
-	(wire
-		(pts
-			(xy 96.52 59.69) (xy 96.52 62.23)
+			(xy 139.7 106.68) (xy 139.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1391,17 +2300,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 41.91) (xy 31.75 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a12fd5b-f3eb-4ca1-947a-419b03eccc98")
-	)
-	(wire
-		(pts
-			(xy 106.68 59.69) (xy 106.68 62.23)
+			(xy 149.86 106.68) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1411,7 +2310,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 194.31 71.12)
+			(xy 223.52 118.11) (xy 237.49 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1421,17 +2320,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 52.07) (xy 106.68 52.07)
+			(xy 212.09 176.53) (xy 223.52 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b0039dc-6348-4a6a-8ddc-f6bcaa57f675")
+		(uuid "4bbc377a-9079-44b4-bec0-518f461d5bd3")
 	)
 	(wire
 		(pts
-			(xy 194.31 88.9) (xy 194.31 91.44)
+			(xy 237.49 135.89) (xy 237.49 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1441,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 62.23) (xy 83.82 62.23)
+			(xy 115.57 109.22) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 62.23) (xy 180.34 62.23)
+			(xy 212.09 109.22) (xy 223.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1461,27 +2360,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 129.54 81.28)
+			(xy 139.7 156.21) (xy 149.86 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e4c3fc9-d94f-4018-9a61-3e2f1fff297e")
+		(uuid "4eea2d3b-299e-410f-9188-be79034f73ce")
 	)
 	(wire
 		(pts
-			(xy 205.74 52.07) (xy 205.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e76428c-9c2b-48f4-bc58-58337aa811ff")
-	)
-	(wire
-		(pts
-			(xy 219.71 41.91) (xy 231.14 41.91)
+			(xy 262.89 88.9) (xy 271.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +2380,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 83.82)
+			(xy 274.32 156.21) (xy 274.32 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5145193a-f2f8-45a0-818b-5d233c3c08ad")
+	)
+	(wire
+		(pts
+			(xy 144.78 198.12) (xy 144.78 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5324d618-0ead-439c-86f6-6dbf706cd7fe")
+	)
+	(wire
+		(pts
+			(xy 198.12 118.11) (xy 198.12 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +2410,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 106.68 62.23)
+			(xy 139.7 109.22) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +2420,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 64.77 81.28)
+			(xy 96.52 128.27) (xy 107.95 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1521,7 +2430,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 62.23) (xy 154.94 62.23)
+			(xy 198.12 176.53) (xy 212.09 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a095bc-8832-475f-b578-ef972aca2c2f")
+	)
+	(wire
+		(pts
+			(xy 186.69 109.22) (xy 198.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +2450,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 71.12) (xy 143.51 71.12)
+			(xy 152.4 208.28) (xy 168.91 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bd4551-8797-4315-bf12-f855fd44bf2a")
+	)
+	(wire
+		(pts
+			(xy 172.72 118.11) (xy 186.69 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1541,17 +2470,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 106.68 81.28)
+			(xy 237.49 156.21) (xy 237.49 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cb62948-ad1c-4eef-88be-ab37e10cc85b")
+		(uuid "5c06aaa3-6d8a-409c-bd58-9d7d83176c04")
 	)
 	(wire
 		(pts
-			(xy 205.74 62.23) (xy 219.71 62.23)
+			(xy 248.92 109.22) (xy 262.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +2490,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 72.39 91.44)
+			(xy 212.09 173.99) (xy 212.09 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60bc56df-6a3b-4c2e-8d53-e50331fced27")
+	)
+	(wire
+		(pts
+			(xy 101.6 138.43) (xy 115.57 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +2510,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 106.68 83.82)
+			(xy 158.75 74.93) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6194fec7-fca1-4930-8d06-5eec16fb1b80")
+	)
+	(wire
+		(pts
+			(xy 149.86 118.11) (xy 149.86 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +2530,37 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 96.52 73.66)
+			(xy 115.57 176.53) (xy 127 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649a22d5-c902-4ec3-9067-4fc61f4c8a09")
+	)
+	(wire
+		(pts
+			(xy 149.86 156.21) (xy 161.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ffb548-df66-4ba9-8f86-b2be9fae5c7a")
+	)
+	(wire
+		(pts
+			(xy 219.71 166.37) (xy 229.87 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656a6add-46db-496b-b908-12dcde2e91a1")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 139.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1591,27 +2570,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 95.25) (xy 58.42 91.44)
+			(xy 144.78 218.44) (xy 162.56 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6743316a-7712-4fc5-abd5-77481bcbc0a4")
+		(uuid "6a92858b-d182-4991-810d-e6a0f2854c6a")
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 243.84 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6794431d-811e-4fab-af7b-7b7821cbf8e0")
-	)
-	(wire
-		(pts
-			(xy 180.34 88.9) (xy 180.34 91.44)
+			(xy 223.52 135.89) (xy 223.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 71.12) (xy 72.39 73.66)
+			(xy 115.57 118.11) (xy 115.57 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 91.44) (xy 194.31 91.44)
+			(xy 223.52 138.43) (xy 237.49 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1641,17 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 81.28) (xy 205.74 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e2b531e-2f04-48d8-bd31-aec8603070ff")
-	)
-	(wire
-		(pts
-			(xy 31.75 52.07) (xy 38.1 52.07)
+			(xy 72.39 99.06) (xy 81.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +2620,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 71.12) (xy 180.34 71.12)
+			(xy 223.52 173.99) (xy 223.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e56235a-d15c-439d-94e2-3d31896d6826")
+	)
+	(wire
+		(pts
+			(xy 212.09 118.11) (xy 223.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1671,7 +2640,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 88.9) (xy 72.39 91.44)
+			(xy 101.6 198.12) (xy 115.57 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecf93ce-f4ed-4965-8440-ad6375b86da5")
+	)
+	(wire
+		(pts
+			(xy 115.57 135.89) (xy 115.57 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 59.69) (xy 219.71 62.23)
+			(xy 262.89 106.68) (xy 262.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +2670,87 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 205.74 52.07)
+			(xy 288.29 149.86) (xy 73.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72685410-cc36-4ad8-b318-139849b2abd7")
+	)
+	(wire
+		(pts
+			(xy 161.29 176.53) (xy 172.72 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7670dd8a-b96a-47c5-a95b-3182540cf20a")
+	)
+	(wire
+		(pts
+			(xy 115.57 198.12) (xy 115.57 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768b9270-ef85-4443-b4ac-fe326bbebae1")
+	)
+	(wire
+		(pts
+			(xy 245.11 166.37) (xy 255.27 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c65fd8-ed31-4965-a8b4-2ffc0665d1f3")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e30bfe-17ca-4b53-8000-6aa75bd58c07")
+	)
+	(wire
+		(pts
+			(xy 88.9 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b34fdd-a211-4df0-a55d-1a47a5d2c73f")
+	)
+	(wire
+		(pts
+			(xy 88.9 176.53) (xy 101.6 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a58b1e-7686-4026-85c5-f47a5d735534")
+	)
+	(wire
+		(pts
+			(xy 139.7 176.53) (xy 149.86 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b0ac8c-226b-4932-a1ce-c5f4e5097816")
+	)
+	(wire
+		(pts
+			(xy 245.11 99.06) (xy 255.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1701,17 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a466ca0-9cda-4045-bdd6-a68544770e10")
-	)
-	(wire
-		(pts
-			(xy 205.74 71.12) (xy 219.71 71.12)
+			(xy 248.92 118.11) (xy 262.89 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1721,27 +2770,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 54.61)
+			(xy 271.78 60.96) (xy 271.78 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d79bb59-7965-456e-ad49-3cf90bb15064")
+		(uuid "7dac4098-cdde-4566-984f-983ed88b556a")
 	)
 	(wire
 		(pts
-			(xy 106.68 52.07) (xy 106.68 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e59a103-2064-416b-814e-3c7f00be433d")
-	)
-	(wire
-		(pts
-			(xy 231.14 81.28) (xy 231.14 71.12)
+			(xy 274.32 118.11) (xy 274.32 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +2790,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 59.69) (xy 129.54 62.23)
+			(xy 176.53 198.12) (xy 176.53 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee0a6c1-d4de-4f31-ad29-61e4b5b50216")
+	)
+	(wire
+		(pts
+			(xy 172.72 106.68) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +2810,37 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 71.12) (xy 143.51 73.66)
+			(xy 46.99 66.04) (xy 46.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f76afa9-9367-4380-b58d-f8ca61b19aa2")
+	)
+	(wire
+		(pts
+			(xy 198.12 173.99) (xy 198.12 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7c9190-8d60-47e3-902e-970c94069b52")
+	)
+	(wire
+		(pts
+			(xy 162.56 198.12) (xy 162.56 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81424923-31d4-4fb8-b514-732202de6002")
+	)
+	(wire
+		(pts
+			(xy 186.69 118.11) (xy 186.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +2850,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 81.28) (xy 231.14 81.28)
+			(xy 270.51 128.27) (xy 288.29 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +2860,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 118.11 91.44)
+			(xy 149.86 138.43) (xy 161.29 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 45.72 71.12)
+			(xy 88.9 120.65) (xy 88.9 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +2880,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 91.44) (xy 58.42 91.44)
+			(xy 193.04 215.9) (xy 193.04 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83dcbd6a-15a8-4baf-932f-7dfcfdd29542")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 101.6 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 91.44) (xy 231.14 91.44)
+			(xy 262.89 138.43) (xy 274.32 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 96.52 71.12)
+			(xy 127 118.11) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1831,17 +2920,37 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 45.72 41.91)
+			(xy 186.69 156.21) (xy 186.69 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87d77d0c-33a8-4ad3-8324-be2ad5c240fe")
+		(uuid "86fb7248-1110-4283-a241-a97d7ec55f2a")
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 143.51 62.23)
+			(xy 245.11 128.27) (xy 255.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f504d6-f88b-46ef-924f-2f0f373fb89d")
+	)
+	(wire
+		(pts
+			(xy 149.86 156.21) (xy 149.86 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d030f0-5b97-40af-b528-b9f5df868804")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 186.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 62.23) (xy 96.52 62.23)
+			(xy 127 109.22) (xy 139.7 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 41.91) (xy 143.51 41.91)
+			(xy 172.72 88.9) (xy 186.69 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +2980,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 135.89 81.28)
+			(xy 161.29 156.21) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6d2dc7-e816-467b-bcca-7d22111c9dcc")
+	)
+	(wire
+		(pts
+			(xy 168.91 128.27) (xy 179.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 88.9) (xy 219.71 91.44)
+			(xy 262.89 135.89) (xy 262.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 161.29 81.28)
+			(xy 194.31 128.27) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1901,17 +3020,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 45.72 62.23)
+			(xy 270.51 166.37) (xy 288.29 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e55f78e-3f3e-44df-8ee7-548e614194e1")
+		(uuid "8eac62fc-c26a-40a9-8c37-c399f6ad5343")
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 106.68 52.07)
+			(xy 149.86 88.9) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 52.07) (xy 205.74 54.61)
+			(xy 248.92 88.9) (xy 248.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 106.68 91.44)
+			(xy 139.7 138.43) (xy 149.86 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 62.23) (xy 205.74 62.23)
+			(xy 237.49 109.22) (xy 248.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 129.54 41.91)
+			(xy 161.29 88.9) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 52.07) (xy 88.9 52.07)
+			(xy 123.19 99.06) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 59.69) (xy 58.42 62.23)
+			(xy 101.6 106.68) (xy 101.6 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1981,7 +3100,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 72.39 62.23)
+			(xy 115.57 106.68) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1991,17 +3110,37 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 129.54 41.91)
+			(xy 262.89 176.53) (xy 274.32 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "972edf82-50cf-4f18-84ab-5ef83eb6a807")
+		(uuid "96fdd2fd-1a83-4b67-81f7-5374af3bde72")
 	)
 	(wire
 		(pts
-			(xy 31.75 81.28) (xy 38.1 81.28)
+			(xy 161.29 173.99) (xy 161.29 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994d5993-872d-46b4-8208-9a0fe9097c38")
+	)
+	(wire
+		(pts
+			(xy 223.52 156.21) (xy 237.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a1677f-113e-42f9-b2f9-f5b312987ebb")
+	)
+	(wire
+		(pts
+			(xy 74.93 128.27) (xy 81.28 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +3150,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 180.34 91.44)
+			(xy 262.89 156.21) (xy 274.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1e1f5e-6147-4d96-a904-a3484fb62ec4")
+	)
+	(wire
+		(pts
+			(xy 212.09 138.43) (xy 223.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +3170,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 154.94 52.07)
+			(xy 158.75 86.36) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbe0bf1-8182-4e98-99ef-20f8b5cc15ff")
+	)
+	(wire
+		(pts
+			(xy 194.31 99.06) (xy 204.47 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +3190,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 59.69) (xy 118.11 62.23)
+			(xy 212.09 156.21) (xy 223.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf73429-40fb-45bc-a466-90249c555b3d")
+	)
+	(wire
+		(pts
+			(xy 96.52 166.37) (xy 107.95 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d668016-3da1-47e3-b18e-a88988cd75a3")
+	)
+	(wire
+		(pts
+			(xy 161.29 106.68) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 118.11 44.45)
+			(xy 161.29 88.9) (xy 161.29 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 71.12) (xy 231.14 71.12)
+			(xy 262.89 118.11) (xy 274.32 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +3240,27 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 118.11 73.66)
+			(xy 127 156.21) (xy 127 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1ef0b3-e43a-4af0-b0be-99228964aa09")
+	)
+	(wire
+		(pts
+			(xy 130.81 198.12) (xy 130.81 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ab3855-342f-4ab5-8bb4-53e8bd402c7d")
+	)
+	(wire
+		(pts
+			(xy 161.29 118.11) (xy 161.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2071,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 168.91 91.44)
+			(xy 212.09 135.89) (xy 212.09 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2081,17 +3280,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 52.07) (xy 186.69 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3a65355-eb91-443a-9301-e0481d8330d8")
-	)
-	(wire
-		(pts
-			(xy 243.84 52.07) (xy 243.84 67.31)
+			(xy 287.02 99.06) (xy 287.02 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +3290,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 231.14 54.61)
+			(xy 274.32 88.9) (xy 274.32 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 58.42 62.23)
+			(xy 88.9 109.22) (xy 101.6 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2121,7 +3310,27 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 83.82 91.44)
+			(xy 144.78 215.9) (xy 144.78 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6dfa274-05c5-4ee6-bb2b-281caf6baac9")
+	)
+	(wire
+		(pts
+			(xy 288.29 166.37) (xy 288.29 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7676964-316c-4877-a79f-d237b0cc8723")
+	)
+	(wire
+		(pts
+			(xy 127 135.89) (xy 127 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2131,17 +3340,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 129.54 71.12)
+			(xy 127 156.21) (xy 139.7 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac9c9ae0-0b55-4163-887b-76d01dff7dbc")
+		(uuid "a93540ea-123e-4ca0-86e0-70f55438ac60")
 	)
 	(wire
 		(pts
-			(xy 118.11 88.9) (xy 118.11 91.44)
+			(xy 132.08 60.96) (xy 158.75 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a3372b-d31b-46ec-895a-5811a5c70662")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 161.29 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2151,17 +3370,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 154.94 81.28)
+			(xy 101.6 215.9) (xy 101.6 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af001e02-8129-4397-b96d-32649d37253d")
+		(uuid "af08e0e2-7e5c-4cf9-a5a9-e7e00dfd09b5")
 	)
 	(wire
 		(pts
-			(xy 176.53 52.07) (xy 180.34 52.07)
+			(xy 219.71 99.06) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 88.9) (xy 205.74 91.44)
+			(xy 248.92 135.89) (xy 248.92 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2181,17 +3400,17 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 81.28) (xy 205.74 81.28)
+			(xy 149.86 173.99) (xy 149.86 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a66f1a-0a0b-43ee-a0f0-78ca8327a8ed")
+		(uuid "b1f10e98-6b5c-4aba-8679-d00bfbd6e96f")
 	)
 	(wire
 		(pts
-			(xy 219.71 71.12) (xy 219.71 73.66)
+			(xy 262.89 118.11) (xy 262.89 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2201,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 88.9) (xy 96.52 91.44)
+			(xy 139.7 135.89) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2211,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 41.91) (xy 168.91 41.91)
+			(xy 198.12 88.9) (xy 212.09 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2221,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 135.89 52.07)
+			(xy 168.91 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2231,7 +3450,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 52.07) (xy 180.34 41.91)
+			(xy 223.52 88.9) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +3460,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 41.91) (xy 154.94 41.91)
+			(xy 123.19 208.28) (xy 137.16 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6257f68-0ed7-4987-ae06-0e9d70223b9f")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 198.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +3480,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 59.69) (xy 154.94 62.23)
+			(xy 168.91 166.37) (xy 179.07 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e597cd-5caa-4702-80c5-e12e907c2449")
+	)
+	(wire
+		(pts
+			(xy 101.6 218.44) (xy 115.57 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f4ccf4-badd-4be5-9d26-0a3a793a1600")
+	)
+	(wire
+		(pts
+			(xy 198.12 106.68) (xy 198.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +3510,37 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 41.91) (xy 194.31 44.45)
+			(xy 88.9 173.99) (xy 88.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5a4563-7ef0-45ce-b81f-3837629fc981")
+	)
+	(wire
+		(pts
+			(xy 237.49 176.53) (xy 248.92 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8ec38c-f2b6-41d8-85d4-acac5a0b8797")
+	)
+	(wire
+		(pts
+			(xy 88.9 200.66) (xy 88.9 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd368bfa-31a2-41c4-9fe8-852217704a24")
+	)
+	(wire
+		(pts
+			(xy 237.49 88.9) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 41.91) (xy 58.42 54.61)
+			(xy 101.6 88.9) (xy 101.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +3560,27 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 41.91) (xy 194.31 41.91)
+			(xy 88.9 218.44) (xy 101.6 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf356939-27a3-4e43-985f-6adc5d70a999")
+	)
+	(wire
+		(pts
+			(xy 271.78 88.9) (xy 274.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf59ff8c-2844-4c0c-826f-ead11a513d8b")
+	)
+	(wire
+		(pts
+			(xy 223.52 88.9) (xy 237.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 81.28) (xy 180.34 81.28)
+			(xy 219.71 128.27) (xy 229.87 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2301,17 +3600,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 231.14 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3d77a00-2aea-4691-b506-846e925e4472")
-	)
-	(wire
-		(pts
-			(xy 168.91 71.12) (xy 168.91 73.66)
+			(xy 212.09 118.11) (xy 212.09 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2321,7 +3610,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 96.52 91.44)
+			(xy 127 138.43) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 52.07) (xy 231.14 52.07)
+			(xy 270.51 99.06) (xy 287.02 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2341,17 +3630,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 52.07) (xy 129.54 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c692e10a-0a1b-4592-88ac-6cd0fa955714")
-	)
-	(wire
-		(pts
-			(xy 154.94 71.12) (xy 168.91 71.12)
+			(xy 198.12 118.11) (xy 212.09 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 41.91) (xy 168.91 44.45)
+			(xy 212.09 88.9) (xy 212.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +3650,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 59.69) (xy 205.74 62.23)
+			(xy 248.92 106.68) (xy 248.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +3660,27 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 58.42 71.12)
+			(xy 198.12 156.21) (xy 198.12 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2548d2-3b93-4f8f-bd23-a85ead886c43")
+	)
+	(wire
+		(pts
+			(xy 172.72 176.53) (xy 186.69 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca49e7e1-a12b-4e9e-be3b-e441a4b59b5a")
+	)
+	(wire
+		(pts
+			(xy 88.9 118.11) (xy 101.6 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 41.91) (xy 83.82 41.91)
+			(xy 115.57 88.9) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +3700,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 62.23) (xy 194.31 62.23)
+			(xy 73.66 208.28) (xy 81.28 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc01724b-ef05-44ff-8850-0375419e271a")
+	)
+	(wire
+		(pts
+			(xy 223.52 109.22) (xy 237.49 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2411,17 +3720,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 106.68 81.28)
+			(xy 46.99 88.9) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d002c64e-74d5-4161-b2b0-9aff2972d073")
+		(uuid "ce5abd50-1bfb-4506-a0c1-a6e2f31dea7f")
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 129.54 83.82)
+			(xy 172.72 118.11) (xy 172.72 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 154.94 91.44)
+			(xy 198.12 135.89) (xy 198.12 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 180.34 83.82)
+			(xy 223.52 118.11) (xy 223.52 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +3760,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 62.23) (xy 168.91 62.23)
+			(xy 162.56 215.9) (xy 162.56 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6986d96-f5fc-40e9-ba26-d5134588ac48")
+	)
+	(wire
+		(pts
+			(xy 88.9 106.68) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d725caca-19d9-4b4a-aa9f-d186f7282ca0")
+	)
+	(wire
+		(pts
+			(xy 198.12 109.22) (xy 212.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2461,17 +3790,47 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 180.34 71.12)
+			(xy 161.29 156.21) (xy 161.29 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dabf60f3-af4a-412e-b563-9a5829ca234b")
+		(uuid "d86e5922-6ba4-469e-9bdf-7ff77f39544f")
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 106.68 71.12)
+			(xy 71.12 76.2) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bafaf5-753b-4041-aed3-6c40db69211b")
+	)
+	(wire
+		(pts
+			(xy 123.19 166.37) (xy 132.08 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbafbb1d-f864-4454-b62b-b9ac43054675")
+	)
+	(wire
+		(pts
+			(xy 237.49 156.21) (xy 248.92 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0e138f-c0f4-4919-90cc-9eaabc2849c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 118.11) (xy 149.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2481,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 129.54 71.12)
+			(xy 161.29 118.11) (xy 172.72 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2491,7 +3850,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 81.28) (xy 83.82 81.28)
+			(xy 193.04 198.12) (xy 193.04 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd60e9e1-1ebe-4223-9edb-3597a6466a46")
+	)
+	(wire
+		(pts
+			(xy 123.19 128.27) (xy 132.08 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2501,7 +3870,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 59.69) (xy 194.31 62.23)
+			(xy 115.57 156.21) (xy 115.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfde05a5-b2b1-4be8-a1b4-74bc328a70d4")
+	)
+	(wire
+		(pts
+			(xy 237.49 106.68) (xy 237.49 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2511,17 +3890,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 66.04) (xy 58.42 62.23)
+			(xy 288.29 128.27) (xy 288.29 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0d2381a-31c3-43fc-9c45-0b2d9914000e")
+		(uuid "e0a52057-24ab-4484-9bc7-5edae0345d2d")
 	)
 	(wire
 		(pts
-			(xy 143.51 91.44) (xy 154.94 91.44)
+			(xy 186.69 138.43) (xy 198.12 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2531,17 +3910,37 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 83.82 80.01)
+			(xy 101.6 156.21) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e211ed90-f96f-4b85-90ad-7ac4b82914ae")
+		(uuid "e1d996c2-967a-4eb4-9338-ac4d61c67bd4")
 	)
 	(wire
 		(pts
-			(xy 106.68 52.07) (xy 110.49 52.07)
+			(xy 248.92 156.21) (xy 248.92 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f3605e-0e8f-47f6-a548-716604e2ccee")
+	)
+	(wire
+		(pts
+			(xy 248.92 173.99) (xy 248.92 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62d01d3-424a-44c8-9e2d-ece4289f440c")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2551,7 +3950,27 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 88.9) (xy 129.54 91.44)
+			(xy 144.78 198.12) (xy 162.56 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78c9f85-f26d-4434-aa4b-ad578b412d04")
+	)
+	(wire
+		(pts
+			(xy 130.81 218.44) (xy 144.78 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bdfbe9-8701-4cfe-ad43-ab5020951af2")
+	)
+	(wire
+		(pts
+			(xy 172.72 135.89) (xy 172.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +3980,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 71.12) (xy 194.31 73.66)
+			(xy 237.49 118.11) (xy 237.49 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +3990,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 62.23) (xy 231.14 62.23)
+			(xy 262.89 109.22) (xy 274.32 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2581,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 41.91) (xy 72.39 44.45)
+			(xy 115.57 88.9) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2591,7 +4010,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 67.31) (xy 31.75 81.28)
+			(xy 74.93 114.3) (xy 74.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +4020,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 41.91) (xy 143.51 44.45)
+			(xy 176.53 198.12) (xy 193.04 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef13922e-9796-49de-9ff8-2325ce49a7c0")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 186.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2611,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 71.12) (xy 72.39 71.12)
+			(xy 101.6 118.11) (xy 115.57 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +4050,37 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 154.94 41.91)
+			(xy 71.12 86.36) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05152f4-583e-4200-8e13-52de9c27c18b")
+	)
+	(wire
+		(pts
+			(xy 274.32 173.99) (xy 274.32 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1355456-ae00-4456-9e5d-d3fbcb77fb1e")
+	)
+	(wire
+		(pts
+			(xy 262.89 173.99) (xy 262.89 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14b5c13-b5f9-482e-82ec-4ab8da515ae6")
+	)
+	(wire
+		(pts
+			(xy 198.12 88.9) (xy 198.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +4090,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 81.28) (xy 205.74 71.12)
+			(xy 88.9 215.9) (xy 88.9 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b589a6-fe50-4ad7-b4ef-2ff3cee7d189")
+	)
+	(wire
+		(pts
+			(xy 248.92 118.11) (xy 248.92 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2641,17 +4110,37 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 52.07) (xy 180.34 54.61)
+			(xy 172.72 156.21) (xy 186.69 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4f36363-e8da-441d-a02f-a06c680bb659")
+		(uuid "f4b77466-72a2-4a1d-8787-3a1f55a26d36")
 	)
 	(wire
 		(pts
-			(xy 45.72 88.9) (xy 45.72 91.44)
+			(xy 237.49 173.99) (xy 237.49 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e696ff-e3f9-42fd-a94f-d07f1896f06b")
+	)
+	(wire
+		(pts
+			(xy 186.69 156.21) (xy 198.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53a7086-f27d-4d61-8836-72ea666cd534")
+	)
+	(wire
+		(pts
+			(xy 88.9 135.89) (xy 88.9 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2661,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 41.91) (xy 72.39 41.91)
+			(xy 101.6 88.9) (xy 115.57 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2671,7 +4160,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 71.12) (xy 154.94 71.12)
+			(xy 186.69 118.11) (xy 198.12 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2681,7 +4170,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 52.07) (xy 129.54 54.61)
+			(xy 172.72 88.9) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 71.12) (xy 83.82 71.12)
+			(xy 115.57 118.11) (xy 127 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +4190,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 143.51 91.44)
+			(xy 186.69 135.89) (xy 186.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +4200,37 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 83.82 91.44)
+			(xy 139.7 156.21) (xy 139.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc998cf6-8afc-4721-92df-ac45c762238a")
+	)
+	(wire
+		(pts
+			(xy 176.53 218.44) (xy 193.04 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf57763-6171-4e65-a753-96ec4e71c18b")
+	)
+	(wire
+		(pts
+			(xy 73.66 149.86) (xy 73.66 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4eeab8-3f69-4311-a33d-43005789588c")
+	)
+	(wire
+		(pts
+			(xy 115.57 138.43) (xy 127 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2721,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 59.69) (xy 83.82 62.23)
+			(xy 127 106.68) (xy 127 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2731,7 +4250,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 41.91) (xy 96.52 41.91)
+			(xy 127 88.9) (xy 139.7 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2739,9 +4258,19 @@
 		)
 		(uuid "ff97017d-c8a1-4664-9153-8a620407ffbb")
 	)
+	(wire
+		(pts
+			(xy 115.57 215.9) (xy 115.57 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc7b387-f686-48df-afd4-f9683e029147")
+	)
 	(global_label "GND"
 		(shape input)
-		(at 231.14 62.23 0)
+		(at 274.32 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2751,7 +4280,7 @@
 		)
 		(uuid "0d30e4ac-e82c-4e6a-bddc-0ed49554bbb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.9957 62.23 0)
+			(at 281.1757 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,9 +4290,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_POWER_BANK"
 		(shape input)
-		(at 231.14 71.12 0)
+		(at 274.32 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2771,9 +4300,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1c496608-c90c-4ee4-8883-0f3421652c97")
+		(uuid "24f88df9-9b93-4868-ab32-2d0f041739e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.4233 71.12 0)
+			(at 292.9685 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +4314,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 231.14 91.44 0)
+		(at 274.32 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2795,7 +4324,7 @@
 		)
 		(uuid "357aad5a-6947-451e-9825-150cba2352a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.9957 91.44 0)
+			(at 281.1757 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,9 +4334,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "GND"
 		(shape input)
-		(at 231.14 41.91 0)
+		(at 193.04 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2815,9 +4344,229 @@
 			)
 			(justify left)
 		)
-		(uuid "6ceea38a-5cad-4cc8-b61c-ca7f7c2e9358")
+		(uuid "36c28128-720a-451d-8fb2-283a266d5a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.4233 41.91 0)
+			(at 199.8957 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 71.12 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52f60909-3af5-4e08-a76c-a929c614f667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2643 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_POWER_BANK"
+		(shape input)
+		(at 193.04 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61f8a8e6-5e31-4365-8f27-4fedc8ae0a73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.6885 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 274.32 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "694c3b81-43a6-4b7b-af7c-9aab0f9fffa3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 281.1757 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_POWER_BANK"
+		(shape input)
+		(at 132.08 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfe51d12-e3a0-4d09-add0-21a5fad4d91f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.7285 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_POWER_BANK"
+		(shape input)
+		(at 71.12 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5763560-6871-4928-856c-45fe59470540")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.4715 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_POWER_BANK"
+		(shape input)
+		(at 274.32 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0a5d175-9a5d-4ea4-a6a9-bf9aee148b43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.9685 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_POWER_BANK"
+		(shape input)
+		(at 274.32 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d802412a-0720-482e-bb1e-4c91415455bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.9685 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 71.12 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db5a8c37-ddf1-4d9b-b2d0-e0a4754a3392")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.2643 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADDRESSABLE_LED"
+		(shape input)
+		(at 57.15 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e21c075f-3a32-4ddc-bee4-18bac8b531a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.7478 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_POWER_BANK"
+		(shape input)
+		(at 132.08 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7f09c10-d690-40dc-baa1-9598617be9bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.7285 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,16 +4578,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 86.36 0)
+		(at 127 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "200bc5af-cacc-4d5e-8917-b24b619fc2ce")
-		(property "Reference" "C14"
-			(at 182.88 85.0962 0)
+		(uuid "0605172e-0435-4af9-9716-4392b9415b6d")
+		(property "Reference" "C12"
+			(at 129.54 170.1862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +4596,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 182.88 87.6362 0)
+			(at 129.54 172.7262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,8 +4604,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 86.36 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +4623,225 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 86.36 0)
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63c9b7b-130a-41c2-beb6-1d4645203f94")
+		)
+		(pin "2"
+			(uuid "45a3afda-1f0b-4f10-b5b3-478affea21d9")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 274.32 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "060dedb0-dc5e-4b3b-9424-11e6b6a384da")
+		(property "Reference" "C30"
+			(at 276.86 170.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 276.86 172.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b4e54b4-2a5a-4042-a82a-e8dc29bd90b8")
+		)
+		(pin "2"
+			(uuid "af6bbe2a-c238-490e-848b-7079a25c947c")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 212.09 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dc44b2e-13a1-492b-b7cc-140903e76aae")
+		(property "Reference" "D18"
+			(at 220.98 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 213.36 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 213.36 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 214.63 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 212.09 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27cf3fd2-cc87-4da7-b13d-8871f1cf92ff")
+		)
+		(pin "4"
+			(uuid "8096afbc-0f76-47fc-aafa-fe3dd2379689")
+		)
+		(pin "3"
+			(uuid "ece0f082-2c53-4741-ae0f-5fb136252ded")
+		)
+		(pin "2"
+			(uuid "5407783b-575e-439a-a60a-c9e910fedbe2")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 223.52 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "200bc5af-cacc-4d5e-8917-b24b619fc2ce")
+		(property "Reference" "C23"
+			(at 226.06 132.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 134.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,40 +4858,112 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 96.52 81.28 0)
+		(lib_id "Device:C_Small")
+		(at 101.6 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "291c5616-7e22-487d-9e20-f4980589ad4d")
-		(property "Reference" "D11"
-			(at 107.95 74.8598 0)
+		(uuid "221a6f89-9e7d-457d-b575-cdf7e1b530d9")
+		(property "Reference" "C9"
+			(at 104.14 170.1862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 104.14 172.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d91117ab-ee5a-42ed-b75d-c916d700fc7b")
+		)
+		(pin "2"
+			(uuid "8a6d123b-c2bd-4708-b2b2-d6ca60cd24a8")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C9")
+					(unit 1)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 107.95 77.3998 0)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 115.57 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26ed0101-5842-4b02-87d9-dec5518670ef")
+		(property "Reference" "D26"
+			(at 120.65 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 116.84 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 97.79 88.9 0)
+			(at 116.84 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 99.06 90.805 0)
+			(at 118.11 217.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +4983,85 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 96.52 81.28 0)
+			(at 115.57 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "584a7357-0df2-4058-9886-50cfc0e497a2")
+		)
+		(pin "4"
+			(uuid "7b096fa5-b1d7-44fa-8e8d-1b9bed9c9c78")
+		)
+		(pin "3"
+			(uuid "445caba6-bf5d-4c66-ac14-b25be21095c2")
+		)
+		(pin "2"
+			(uuid "1b349552-0dde-495d-bd6d-72d1e968a286")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 139.7 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "291c5616-7e22-487d-9e20-f4980589ad4d")
+		(property "Reference" "D8"
+			(at 147.32 124.3898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 140.97 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 142.24 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,15 +5084,15 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D11")
+					(reference "D8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 194.31 81.28 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 237.49 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2983,24 +5100,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e547eaa-c80a-4db4-a163-d7e2c962e307")
-		(property "Reference" "D15"
-			(at 205.74 74.8598 0)
+		(property "Reference" "D20"
+			(at 246.38 124.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 205.74 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 238.76 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 195.58 88.9 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +5129,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 196.85 90.805 0)
+			(at 240.03 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3020,7 +5139,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 194.31 81.28 0)
+			(at 237.49 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +5162,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D15")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -3051,16 +5170,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 205.74 57.15 0)
+		(at 158.75 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3fa49a8c-c603-40ec-af80-43e65246c690")
-		(property "Reference" "C8"
-			(at 208.28 55.8862 0)
+		(uuid "3015e601-9025-430e-a877-fe313e7a0988")
+		(property "Reference" "C35"
+			(at 161.29 76.2062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +5188,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 208.28 58.4262 0)
+			(at 161.29 78.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,8 +5196,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +5206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 57.15 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +5215,86 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 205.74 57.15 0)
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 158.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a26e511f-534f-4532-8538-72e154cbfa77")
+		)
+		(pin "2"
+			(uuid "8b832abd-3896-40c3-bc85-a85a0a3ac43a")
+		)
+		(instances
+			(project ""
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 248.92 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fa49a8c-c603-40ec-af80-43e65246c690")
+		(property "Reference" "C25"
+			(at 251.46 102.8762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 251.46 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 248.92 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,39 +5311,42 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C8")
+					(reference "C25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 45.72 81.28 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 88.9 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "41cf61bd-2e42-4b09-8f7e-483501ac4552")
-		(property "Reference" "D9"
-			(at 57.15 74.8598 0)
+		(property "Reference" "D2"
+			(at 93.98 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 57.15 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 90.17 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 46.99 88.9 0)
+			(at 90.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +5356,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 48.26 90.805 0)
+			(at 91.44 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +5366,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 45.72 81.28 0)
+			(at 88.9 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +5389,85 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D9")
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 144.78 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44abeaff-9d1d-4be0-8769-4a6b2b2cda32")
+		(property "Reference" "D27"
+			(at 149.86 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 146.05 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 146.05 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 147.32 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 144.78 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51a3a30a-237e-486a-a793-31e8a90feecf")
+		)
+		(pin "4"
+			(uuid "73ab23f0-bee2-478f-92eb-089559110ed3")
+		)
+		(pin "3"
+			(uuid "aa1862ca-eece-4d89-902f-536815d077ee")
+		)
+		(pin "2"
+			(uuid "08f5bcf0-c8b0-4b1a-a5cd-870ba6108ac1")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -3196,7 +5475,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 57.15 0)
+		(at 127 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3204,8 +5483,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d0486b4-fbdb-47c5-9238-21ea318f9024")
-		(property "Reference" "C2"
-			(at 86.36 55.8862 0)
+		(property "Reference" "C10"
+			(at 129.54 102.8762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +5493,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 86.36 58.4262 0)
+			(at 129.54 105.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,8 +5501,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.82 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +5511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 57.15 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3241,7 +5520,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 57.15 0)
+			(at 127 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +5537,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3266,7 +5545,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 231.14 86.36 0)
+		(at 274.32 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3274,8 +5553,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e7d6afc-df0b-458b-93a5-dba91eb95989")
-		(property "Reference" "C16"
-			(at 233.68 85.0962 0)
+		(property "Reference" "C29"
+			(at 276.86 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +5563,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 233.68 87.6362 0)
+			(at 276.86 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,8 +5571,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 274.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +5581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 86.36 0)
+			(at 274.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +5590,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 86.36 0)
+			(at 274.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +5607,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C16")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -3336,7 +5615,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 86.36 0)
+		(at 101.6 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3344,8 +5623,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eed7b78-d39c-4499-b4cc-0b5c968bf346")
-		(property "Reference" "C6"
-			(at 60.96 85.0962 0)
+		(property "Reference" "C8"
+			(at 104.14 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +5633,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 60.96 87.6362 0)
+			(at 104.14 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,8 +5641,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +5651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 86.36 0)
+			(at 101.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +5660,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 86.36 0)
+			(at 101.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +5677,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3406,15 +5685,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 86.36 0)
+		(at 198.12 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5440062c-e9ac-4685-a57d-ab93f8e6d292")
-		(property "Reference" "C13"
-			(at 158.496 86.36 0)
+		(property "Reference" "C20"
+			(at 201.676 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +5702,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 158.242 88.646 0)
+			(at 201.422 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,8 +5710,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 198.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +5720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 86.36 0)
+			(at 198.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,7 +5729,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 86.36 0)
+			(at 198.12 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,15 +5746,155 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C13")
+					(reference "C20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 219.71 81.28 0)
+		(lib_id "Device:C_Small")
+		(at 172.72 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59d353b7-fe13-49a5-b563-58c5d9bacb9c")
+		(property "Reference" "C18"
+			(at 175.26 170.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.26 172.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddf4d4fc-406c-40c7-80b3-4b3d17c7ab8e")
+		)
+		(pin "2"
+			(uuid "02f06a8f-d5d8-4623-8050-ebb49efa9092")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c9809c6-16fb-4008-b2d7-2d7593605060")
+		(property "Reference" "C31"
+			(at 104.14 212.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 104.14 214.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3803d1-3f88-4511-9343-d5b286718ecc")
+		)
+		(pin "2"
+			(uuid "4ead7a8a-2d81-42bd-9a7b-a051511b4fee")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 262.89 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3483,24 +5902,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d60bb7f-b74b-491a-ba72-03aa5037ac27")
-		(property "Reference" "D16"
-			(at 231.14 74.8598 0)
+		(property "Reference" "D23"
+			(at 271.78 124.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 231.14 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 264.16 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 220.98 88.9 0)
+			(at 264.16 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +5931,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 222.25 90.805 0)
+			(at 265.43 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +5941,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 219.71 81.28 0)
+			(at 262.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,39 +5964,112 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D16")
+					(reference "D23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 143.51 81.28 0)
+		(lib_id "Device:C_Small")
+		(at 223.52 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e7433f4-473c-4846-9fc9-527cfbca82b3")
+		(property "Reference" "C24"
+			(at 226.06 170.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 226.06 172.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9fa4c58-0e8e-42a0-802e-34f4b0c00d64")
+		)
+		(pin "2"
+			(uuid "b0649aec-99bc-4c20-b6c7-9e07151b9b13")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 186.69 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "60ca3390-d89b-4d51-b6a2-8099b94a8f71")
-		(property "Reference" "D13"
-			(at 154.94 74.8598 0)
+		(property "Reference" "D14"
+			(at 191.77 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 154.94 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 187.96 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 144.78 88.9 0)
+			(at 187.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 146.05 90.805 0)
+			(at 189.23 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +6089,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 143.51 81.28 0)
+			(at 186.69 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,39 +6112,42 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D13")
+					(reference "D14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 143.51 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 186.69 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "64f93f73-3ad2-471a-a949-7ee0484b08fe")
-		(property "Reference" "D5"
-			(at 154.94 45.6498 0)
+		(property "Reference" "D13"
+			(at 191.77 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 154.94 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 187.96 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 144.78 59.69 0)
+			(at 187.96 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +6157,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 146.05 61.595 0)
+			(at 189.23 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +6167,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 143.51 52.07 0)
+			(at 186.69 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,15 +6190,15 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D5")
+					(reference "D13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 72.39 81.28 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 115.57 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3709,24 +6206,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65d1f885-d1e4-4a16-b50d-676faa1d6857")
-		(property "Reference" "D10"
-			(at 83.82 74.8598 0)
+		(property "Reference" "D5"
+			(at 123.19 124.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 83.82 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 116.84 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 73.66 88.9 0)
+			(at 116.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +6235,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 74.93 90.805 0)
+			(at 118.11 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +6245,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 72.39 81.28 0)
+			(at 115.57 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +6268,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3777,7 +6276,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 205.74 86.36 0)
+		(at 248.92 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3785,8 +6284,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c2e156-5d0b-4506-ae1b-c22a62dd3cfe")
-		(property "Reference" "C15"
-			(at 208.28 85.0962 0)
+		(property "Reference" "C26"
+			(at 251.46 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +6294,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 208.28 87.6362 0)
+			(at 251.46 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,8 +6302,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +6312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 86.36 0)
+			(at 248.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +6321,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 205.74 86.36 0)
+			(at 248.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3839,6 +6338,76 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e36003-ead2-42c6-8ad8-dd2f280e0a1c")
+		(property "Reference" "C15"
+			(at 152.4 170.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.4 172.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85386201-eaa7-4394-890f-032d290f5b11")
+		)
+		(pin "2"
+			(uuid "14cf91f6-d244-4452-a017-0b6d5d030817")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
 					(reference "C15")
 					(unit 1)
 				)
@@ -3846,8 +6415,78 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 194.31 52.07 0)
+		(lib_id "Device:C_Small")
+		(at 248.92 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7067f13f-b555-4b42-85e1-4d87dc2ddccf")
+		(property "Reference" "C27"
+			(at 251.46 170.1862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 251.46 172.7262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 248.92 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf6f331-e5ad-41f1-8322-341f2c1c6036")
+		)
+		(pin "2"
+			(uuid "e83dc0d8-21a6-4292-a479-70645a77da7a")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 237.49 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3855,24 +6494,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73253e65-d0fa-443d-82e8-433d10809586")
-		(property "Reference" "D7"
-			(at 205.74 45.6498 0)
+		(property "Reference" "D19"
+			(at 246.38 95.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 205.74 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 238.76 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 195.58 59.69 0)
+			(at 238.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +6523,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 196.85 61.595 0)
+			(at 240.03 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +6533,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 194.31 52.07 0)
+			(at 237.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +6556,163 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D7")
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 237.49 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c6c35f-0966-47a9-adbe-fa45b22d3d56")
+		(property "Reference" "D21"
+			(at 246.38 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 238.76 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 238.76 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 240.03 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 237.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e436dac-24ba-4414-90e2-043b283594cb")
+		)
+		(pin "4"
+			(uuid "0b094c8b-20b8-4a32-ac04-5086785742f5")
+		)
+		(pin "3"
+			(uuid "c7f0107e-291b-4e9e-84d9-37a1eabb6b84")
+		)
+		(pin "2"
+			(uuid "c1fc1188-e3f1-48d9-b319-8e0ac3485356")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 186.69 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dff299e-bccb-45e9-bb1c-5f80ba4a2e55")
+		(property "Reference" "D15"
+			(at 191.77 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 187.96 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 187.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 189.23 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 186.69 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa525cb6-8a8e-40ef-93be-7dd4ac7f3f4a")
+		)
+		(pin "4"
+			(uuid "447ca5ae-c983-43a6-ac6b-65bc465cf847")
+		)
+		(pin "3"
+			(uuid "7b87a352-9393-43bb-ae6f-c02ac27f12c6")
+		)
+		(pin "2"
+			(uuid "df90f5da-725d-4850-b1d3-f179e259c685")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -3923,7 +6720,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 129.54 57.15 0)
+		(at 172.72 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3931,8 +6728,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ec6c22d-a3e4-4735-bdd8-73b06f288f2b")
-		(property "Reference" "C4"
-			(at 132.08 55.8862 0)
+		(property "Reference" "C16"
+			(at 175.26 102.8762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +6738,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 132.08 58.4262 0)
+			(at 175.26 105.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,8 +6746,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +6756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 57.15 0)
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +6765,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 57.15 0)
+			(at 172.72 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +6782,113 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C4")
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-06-01_06-17-26:CD74HCT125M96")
+		(at 71.12 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83cbbc42-c0ed-4358-9aab-b7d044e41bfc")
+		(property "Reference" "U2"
+			(at 101.6 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CD74HCT125M96"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "footprints_CD74HCT125M96:D14"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "CD74HCT125M96"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a8cca7a-5a27-44e2-8853-27d41c984523")
+		)
+		(pin "2"
+			(uuid "b744f174-9fb9-45af-82b3-f063f9cb9200")
+		)
+		(pin "3"
+			(uuid "0cd9b25a-cfea-4570-84fd-e95135294547")
+		)
+		(pin "4"
+			(uuid "342a8fb8-a4e6-4d45-be5f-8caff541a4f8")
+		)
+		(pin "5"
+			(uuid "4184af71-b91f-4300-b2e1-ee6e6bb6bd31")
+		)
+		(pin "6"
+			(uuid "6e0b2df4-8f03-4aae-b48b-0535f8be1a06")
+		)
+		(pin "7"
+			(uuid "7ec8ae6c-3329-4aaf-b6dd-1f0affd9dc37")
+		)
+		(pin "14"
+			(uuid "1d94d5e7-fe9b-4586-b378-297291a6d196")
+		)
+		(pin "13"
+			(uuid "69148202-a02f-44a4-8f24-ab1688369a95")
+		)
+		(pin "12"
+			(uuid "3b5f539c-044e-4608-82f4-cfc6ac90592c")
+		)
+		(pin "11"
+			(uuid "b4f13b53-deea-4146-af60-a62f1d156eee")
+		)
+		(pin "10"
+			(uuid "4b51cf26-7386-4865-858d-dc0846954143")
+		)
+		(pin "9"
+			(uuid "1c8659c0-dffb-416f-ac12-3c6c4d29c9c1")
+		)
+		(pin "8"
+			(uuid "22ec6262-7ffa-450b-93d0-aef4830d204a")
+		)
+		(instances
+			(project ""
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3993,16 +6896,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 57.15 0)
+		(at 162.56 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8c2a265c-dbee-4812-b4c2-30449da70c38")
-		(property "Reference" "C3"
-			(at 109.22 55.8862 0)
+		(uuid "8874fa31-aa88-47d0-b546-1e3b0dff1f59")
+		(property "Reference" "C33"
+			(at 165.1 212.0962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +6914,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 58.4262 0)
+			(at 165.1 214.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,8 +6922,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +6932,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 57.15 0)
+			(at 162.56 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +6941,77 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 57.15 0)
+			(at 162.56 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa28ebe-89e6-4950-bbf9-997e41137c23")
+		)
+		(pin "2"
+			(uuid "b704a3f7-dec9-4b07-9376-5e85a4bae16e")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c2a265c-dbee-4812-b4c2-30449da70c38")
+		(property "Reference" "C13"
+			(at 152.4 102.8762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.4 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,15 +7028,15 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C3")
+					(reference "C13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 118.11 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 161.29 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4071,24 +7044,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91050247-2112-4505-be6c-dfa3f2d70d04")
-		(property "Reference" "D4"
-			(at 129.54 45.6498 0)
+		(property "Reference" "D10"
+			(at 170.18 95.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 129.54 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 162.56 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 119.38 59.69 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +7073,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 120.65 61.595 0)
+			(at 163.83 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +7083,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 52.07 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +7106,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4139,16 +7114,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 129.54 86.36 0)
+		(at 198.12 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abd8066e-a53a-4720-a67e-f81b546c8736")
-		(property "Reference" "C12"
-			(at 132.08 85.0962 0)
+		(uuid "9512607d-7be9-4f3e-bfd7-31c90657e3e4")
+		(property "Reference" "C21"
+			(at 201.676 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +7131,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 132.08 87.6362 0)
+			(at 201.422 173.736 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,8 +7139,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 198.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +7149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 86.36 0)
+			(at 198.12 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +7158,233 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 129.54 86.36 0)
+			(at 198.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5bd558e-759a-4df0-85a6-9e5d43cad385")
+		)
+		(pin "2"
+			(uuid "6cc9d017-6bf2-4911-889f-b83c234d65ca")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 139.7 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d727f68-b1b1-456f-9740-48e2c3c27487")
+		(property "Reference" "D9"
+			(at 147.32 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 140.97 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 142.24 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 139.7 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff9d1950-d967-4f8e-9c1c-9b8a9ec9dd59")
+		)
+		(pin "4"
+			(uuid "a2db3248-8725-4404-8a06-610078a504d6")
+		)
+		(pin "3"
+			(uuid "f8a06843-07fd-4326-9b98-ceab39c68f78")
+		)
+		(pin "2"
+			(uuid "f98672c1-667c-4c95-828b-cc6d9e83d89b")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 88.9 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1de53fa-1e89-4e54-aec9-cd375fac8feb")
+		(property "Reference" "D25"
+			(at 93.98 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 90.17 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 90.17 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 91.44 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 88.9 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36a7255-5fc8-4bec-8aa6-d9b4cd7ded8e")
+		)
+		(pin "4"
+			(uuid "5423f4b0-a2e6-483e-bf87-bba3ec27611d")
+		)
+		(pin "3"
+			(uuid "b4abd769-7e3f-4844-b22b-549abf7dc205")
+		)
+		(pin "2"
+			(uuid "f580e83b-63bf-41ad-81aa-cb72c6f96c4e")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 172.72 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd8066e-a53a-4720-a67e-f81b546c8736")
+		(property "Reference" "C17"
+			(at 175.26 132.0862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.26 134.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +7401,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4209,7 +7409,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 57.15 0)
+		(at 223.52 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4217,8 +7417,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af5f3826-bdfa-41c2-99b1-aa7df2637935")
-		(property "Reference" "C7"
-			(at 182.88 55.8862 0)
+		(property "Reference" "C22"
+			(at 226.06 102.8762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +7427,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 182.88 58.4262 0)
+			(at 226.06 105.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,8 +7435,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 180.34 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +7445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 57.15 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +7454,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 57.15 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +7471,85 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C7")
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 161.29 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aff5b2e4-6fbe-44a8-961a-50435834b159")
+		(property "Reference" "D12"
+			(at 170.18 162.4898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 162.56 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 162.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 163.83 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 161.29 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed354ba-7524-4446-a22a-63d965361664")
+		)
+		(pin "4"
+			(uuid "c08e93b8-3b61-4eaf-ab3a-8c58fa9581dd")
+		)
+		(pin "3"
+			(uuid "fb2c7275-97ad-417c-9dee-fae49dda09a4")
+		)
+		(pin "2"
+			(uuid "e36734ad-2d3e-46c2-b52a-f3da66f7048e")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4279,16 +7557,16 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 231.14 57.15 0)
+		(at 193.04 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8f203e2-9905-4745-8faa-456f5ed9dba2")
-		(property "Reference" "C9"
-			(at 233.68 55.8862 0)
+		(uuid "b2a5141d-820d-4853-b2ae-bcdc3fbddc06")
+		(property "Reference" "C34"
+			(at 195.58 212.0962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +7575,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 233.68 58.4262 0)
+			(at 195.58 214.6362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,8 +7583,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 193.04 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +7593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 57.15 0)
+			(at 193.04 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +7602,77 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 57.15 0)
+			(at 193.04 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "083f5621-2192-4a46-95ed-c7886e68dc3f")
+		)
+		(pin "2"
+			(uuid "4ed8cf6d-edd4-45d8-9c4b-435fe38bdc97")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 274.32 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f203e2-9905-4745-8faa-456f5ed9dba2")
+		(property "Reference" "C28"
+			(at 276.86 102.8762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 276.86 105.4162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 274.32 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,15 +7689,15 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C9")
+					(reference "C28")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 168.91 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 212.09 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4357,24 +7705,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa956c7-ba84-4b8d-a482-d1ec2cae6807")
-		(property "Reference" "D6"
-			(at 180.34 45.6498 0)
+		(property "Reference" "D16"
+			(at 220.98 95.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 180.34 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 213.36 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 170.18 59.69 0)
+			(at 213.36 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +7734,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 171.45 61.595 0)
+			(at 214.63 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +7744,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 168.91 52.07 0)
+			(at 212.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +7767,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D6")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4425,7 +7775,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 83.82 86.36 0)
+		(at 127 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4433,8 +7783,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1f3b9d-4aa6-4156-8102-cd8c51d6a28c")
-		(property "Reference" "C10"
-			(at 86.36 85.0962 0)
+		(property "Reference" "C11"
+			(at 129.54 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +7793,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 86.36 87.6362 0)
+			(at 129.54 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4451,8 +7801,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.82 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +7811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 86.36 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +7820,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 83.82 86.36 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,15 +7837,15 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 219.71 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 262.89 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4503,24 +7853,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0dc8665-b80c-4e62-b5aa-da0cdd9e6bba")
-		(property "Reference" "D8"
-			(at 231.14 45.6498 0)
+		(property "Reference" "D22"
+			(at 271.78 95.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 231.14 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 264.16 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 220.98 59.69 0)
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +7882,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 222.25 61.595 0)
+			(at 265.43 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +7892,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 219.71 52.07 0)
+			(at 262.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,40 +7915,42 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D8")
+					(reference "D22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 168.91 81.28 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 115.57 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9e9c09a-a61a-44cd-85c5-47c0165359d0")
-		(property "Reference" "D14"
-			(at 180.34 74.8598 0)
+		(uuid "d9e1d010-8329-42ab-a5cd-89a8e44787c3")
+		(property "Reference" "D6"
+			(at 123.19 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 180.34 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 116.84 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 170.18 88.9 0)
+			(at 116.84 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +7960,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 171.45 90.805 0)
+			(at 118.11 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +7970,85 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 168.91 81.28 0)
+			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00f92c36-d6f2-4131-b023-ac6d4dc48a10")
+		)
+		(pin "4"
+			(uuid "c912a0f7-ec02-4ddd-bca1-d5c22026a59c")
+		)
+		(pin "3"
+			(uuid "a880a01a-66de-44eb-aa5a-6426ddd2d18d")
+		)
+		(pin "2"
+			(uuid "7fa108e8-4927-4c8c-a900-b8135f96b94a")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 212.09 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e9c09a-a61a-44cd-85c5-47c0165359d0")
+		(property "Reference" "D17"
+			(at 220.98 124.3898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 213.36 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 213.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 214.63 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 212.09 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +8071,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D14")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -4647,7 +8079,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 58.42 57.15 0)
+		(at 101.6 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4655,8 +8087,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcbb2126-bc72-48ec-9e8f-67db6c9f7480")
-		(property "Reference" "C1"
-			(at 60.96 55.8862 0)
+		(property "Reference" "C7"
+			(at 104.14 102.8762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +8097,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 60.96 58.4262 0)
+			(at 104.14 105.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,8 +8105,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +8115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 57.15 0)
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +8124,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 58.42 57.15 0)
+			(at 101.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +8141,7 @@
 		(instances
 			(project ""
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4717,15 +8149,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 154.94 57.15 0)
+		(at 198.12 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dcc3c468-17fb-425d-a326-95188348a8b4")
-		(property "Reference" "C5"
-			(at 158.496 57.15 0)
+		(property "Reference" "C19"
+			(at 201.676 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +8166,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 158.242 59.436 0)
+			(at 201.422 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,8 +8174,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 154.94 57.15 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +8184,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 57.15 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +8193,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 57.15 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,39 +8210,42 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C5")
+					(reference "C19")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 45.72 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 262.89 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1a192bb-0d79-4090-8252-937911e77fc9")
-		(property "Reference" "D1"
-			(at 57.15 45.6498 0)
+		(fields_autoplaced yes)
+		(uuid "dd24d59d-fcc3-499a-9581-f72e8de3a4d8")
+		(property "Reference" "D24"
+			(at 271.78 162.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 57.15 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 264.16 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 46.99 59.69 0)
+			(at 264.16 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +8255,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 48.26 61.595 0)
+			(at 265.43 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +8265,233 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 45.72 52.07 0)
+			(at 262.89 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43309fc1-d7b8-46be-85b8-773a128f13d8")
+		)
+		(pin "4"
+			(uuid "a65ff1ac-3a7f-431f-8ad2-e104847d5276")
+		)
+		(pin "3"
+			(uuid "df0c79d3-e69c-4d80-8c23-15add54ca544")
+		)
+		(pin "2"
+			(uuid "d84812b5-4f80-4907-8b42-1e57657cb158")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 130.81 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd9f6cbd-cfbf-41bb-836c-24942671e3f9")
+		(property "Reference" "C32"
+			(at 133.35 212.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 133.35 214.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 130.81 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b518a5f3-43a9-4a01-bab0-d8b6017ae1c8")
+		)
+		(pin "2"
+			(uuid "2eecfecb-631b-4dc5-b9f3-dee5bb7264e4")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 88.9 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deb4080f-58b9-492e-8fb5-87364317e1a8")
+		(property "Reference" "D3"
+			(at 93.98 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 90.17 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 90.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 91.44 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ae18486-d4e4-4b37-8160-2299d882604f")
+		)
+		(pin "4"
+			(uuid "f24cc334-770e-4c64-9d31-59f749b3f83b")
+		)
+		(pin "3"
+			(uuid "cbdc4651-a5a1-4780-be25-c8220dbd7934")
+		)
+		(pin "2"
+			(uuid "010c79df-a10e-4920-b39a-3e1d3ab94d9f")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 88.9 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1a192bb-0d79-4090-8252-937911e77fc9")
+		(property "Reference" "D1"
+			(at 93.98 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 90.17 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 90.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 91.44 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,8 +8521,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 72.39 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 115.57 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4869,24 +8530,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a10c09-8d32-489d-a69f-b27eb2dd28f8")
-		(property "Reference" "D2"
-			(at 83.82 45.6498 0)
+		(property "Reference" "D4"
+			(at 123.19 95.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 83.82 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 116.84 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 73.66 59.69 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 74.93 61.595 0)
+			(at 118.11 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +8569,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 72.39 52.07 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,15 +8592,15 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 118.11 81.28 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 161.29 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4945,24 +8608,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e76568f3-d921-4861-9222-c9a29b28ed9a")
-		(property "Reference" "D12"
-			(at 129.54 74.8598 0)
+		(property "Reference" "D11"
+			(at 170.18 124.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 129.54 77.3998 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 162.56 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 119.38 88.9 0)
+			(at 162.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +8637,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 120.65 90.805 0)
+			(at 163.83 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +8647,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 118.11 81.28 0)
+			(at 161.29 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +8670,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5013,16 +8678,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 31.75 45.72 0)
+		(at 72.39 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee26a0fb-ab9a-4089-ba04-e9ef902b64f5")
-		(property "Reference" "R1"
-			(at 34.29 44.4499 0)
+		(property "Reference" "R15"
+			(at 74.93 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,8 +8694,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 34.29 46.9899 0)
+		(property "Value" "330 ohm"
+			(at 74.168 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,8 +8703,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 32.766 45.974 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.406 92.964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +8713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 45.72 0)
+			(at 72.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +8722,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 31.75 45.72 0)
+			(at 72.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,15 +8739,15 @@
 		(instances
 			(project ""
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "R1")
+					(reference "R15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 96.52 52.07 0)
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 139.7 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5091,24 +8755,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f33ae83a-40f5-4eb8-b0a6-9dde1ca77d89")
-		(property "Reference" "D3"
-			(at 107.95 45.6498 0)
+		(property "Reference" "D7"
+			(at 147.32 95.1798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 107.95 48.1898 0)
+		(property "Value" "WS2812B_passive_vss"
+			(at 140.97 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 97.79 59.69 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +8784,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 99.06 61.595 0)
+			(at 142.24 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +8794,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 96.52 52.07 0)
+			(at 139.7 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +8817,85 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "D3")
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B_passive_vss")
+		(at 176.53 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f63ae5d2-86d1-4089-87dc-ea36c4d2b948")
+		(property "Reference" "D28"
+			(at 181.61 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "WS2812B_passive_vss"
+			(at 177.8 213.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 177.8 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 179.07 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 176.53 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973350cb-18e8-46ff-af61-18df0382b6e6")
+		)
+		(pin "4"
+			(uuid "d65729cb-bf94-4150-8272-0d6b64ca90ca")
+		)
+		(pin "3"
+			(uuid "d56f6965-0a48-4056-87a8-045287c9b1a5")
+		)
+		(pin "2"
+			(uuid "22f8b7b4-e69e-49f4-ae75-9b12ab8da5f6")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -5159,7 +8903,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 106.68 86.36 0)
+		(at 149.86 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5167,8 +8911,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd6ba5ba-7a73-4da3-be50-11d01810a3d1")
-		(property "Reference" "C11"
-			(at 109.22 85.0962 0)
+		(property "Reference" "C14"
+			(at 152.4 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5177,7 +8921,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 87.6362 0)
+			(at 152.4 134.6262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,8 +8929,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5195,7 +8939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 86.36 0)
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +8948,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 106.68 86.36 0)
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +8965,7 @@
 		(instances
 			(project "MiniMixer"
 				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/5d192c1c-23fd-4d0b-abdc-5083d76328c9"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)

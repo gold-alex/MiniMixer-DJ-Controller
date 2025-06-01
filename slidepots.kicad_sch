@@ -1,0 +1,1127 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "039c0268-5712-4b26-a852-fb4d93d890e7")
+	(paper "A4")
+	(title_block
+		(title "@opensourcedj on twitter")
+		(rev "1")
+		(company "Alex G")
+	)
+	(lib_symbols
+		(symbol "Device:R_Potentiometer_Small"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Small"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Small_0_1"
+				(rectangle
+					(start 0.762 1.8034)
+					(end -0.762 -1.8034)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.9906)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(global_label "SLIDE_POT5"
+		(shape input)
+		(at 193.04 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b654eae-190c-411b-aaea-851306f509dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 106.6582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 228.6 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14406ed4-c70c-4835-a959-da5a3c4f6fa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.7443 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 143.51 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14ea7131-6755-46d9-b397-dacb1c835829")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.6543 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 160.02 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "221febf6-cd86-49a1-9e4f-013bd33bf89e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.0852 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 148.59 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b47677d-08a4-4510-9c31-b4255c8a4f5a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.6552 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 154.94 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c2de004-7292-48b6-af14-742aad84522d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.0843 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLIDE_POT1"
+		(shape input)
+		(at 40.64 76.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "607e126e-71fe-4f75-bd95-0330d6aa19a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 62.2082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLIDE_POT2"
+		(shape input)
+		(at 90.17 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67c11fe1-9f3b-49df-82c7-a9e80d2838b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.17 106.6582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 190.5 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70e57e8f-f4a2-4540-9fc3-68bf6a4b81b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.6443 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 125.73 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c38930a-7aaa-4ffa-895d-f2581c531d68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.7952 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLIDE_POT6"
+		(shape input)
+		(at 231.14 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cf6286a-348c-4adb-a75b-9f7d1b56a5f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 63.4782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 120.65 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c484fae-ddf9-4f1d-b542-f19c836065d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.7943 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLIDE_POT4"
+		(shape input)
+		(at 157.48 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cbc9843-00ad-4145-a080-3c27986c289e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 106.6582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 38.1 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3de5f84-aa74-4fe6-ba1a-a15e0964b41b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.2443 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 87.63 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb06d66f-a1a9-4eb2-9c03-2b833e51d978")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.7743 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 233.68 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd226f9b-88a0-4be2-a384-3ba6648f9c75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.7452 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 195.58 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d44d4f23-8ee7-4a95-a2c9-1b68d9deee78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6452 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 92.71 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d94f169b-a35e-4107-854d-fbacdca12e4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.7752 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLIDE_POT7"
+		(shape input)
+		(at 146.05 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e483679b-160b-4316-9f8d-3ee281bc49bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 137.1382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLIDE_POT3"
+		(shape input)
+		(at 123.19 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9531c32-1fbb-48f0-8ae6-af6fedf90a70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 106.6582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 43.18 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f57797b1-7de4-4afc-9e01-9ff358368c04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.2452 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 231.14 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c023e6f-5559-449c-9cc4-8f762d77cffd")
+		(property "Reference" "RV28"
+			(at 231.14 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 231.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fc2088f-729d-4bb0-bb2e-cb0816a61c2c")
+		)
+		(pin "2"
+			(uuid "a3c88635-e97e-43c5-926b-a3fed2641cab")
+		)
+		(pin "3"
+			(uuid "b63fbfe5-80a5-44a1-b86c-ac8414800760")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 146.05 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2790ccc8-9317-412b-87a3-2f01b0e5cf6e")
+		(property "Reference" "RV29"
+			(at 146.05 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 146.05 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA6043_Single_Slide"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dbe0fdb-295b-4ae3-a724-bb10ad00db95")
+		)
+		(pin "2"
+			(uuid "5e8ca0a5-dd4c-4465-b4a4-5197a6eaebad")
+		)
+		(pin "3"
+			(uuid "33e83c0c-40ea-486f-b5d7-b1bff25b194c")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 157.48 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b2c5e51-9cb4-4219-818f-11038f829f50")
+		(property "Reference" "RV26"
+			(at 157.48 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 157.48 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 157.48 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a3a9c0a-bf09-4d15-9bbe-c826b0eace7f")
+		)
+		(pin "2"
+			(uuid "673a2f1c-7a93-40cc-a4f4-84a452fae67c")
+		)
+		(pin "3"
+			(uuid "f473b88c-df70-483e-862c-cd82f950d276")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 193.04 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d5b77ef-712b-4ea9-a5f0-d5c5160adf6c")
+		(property "Reference" "RV27"
+			(at 193.04 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 193.04 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd1f01ad-688a-4320-acd7-e22a9e42b5c9")
+		)
+		(pin "2"
+			(uuid "e3968cd3-be2b-47f7-a5d2-c35cf27d9b8d")
+		)
+		(pin "3"
+			(uuid "961d60f9-cf68-46e0-84c0-942631b3e754")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 90.17 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d684d1-3b29-40c0-8ba9-f3b1e3a1666d")
+		(property "Reference" "RV24"
+			(at 90.17 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 90.17 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 90.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e275ebd1-5c6f-4ea8-9f47-e56cfc3cf52d")
+		)
+		(pin "2"
+			(uuid "286d8c69-1e60-4749-a1fc-8dbdc84ff2d9")
+		)
+		(pin "3"
+			(uuid "7aafbc3f-19b3-41c5-b001-be54bf6ad0a6")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 40.64 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97054ca7-299a-4c48-8c34-72d3da47bb2f")
+		(property "Reference" "RV23"
+			(at 40.64 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 40.64 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c301bed-132b-4770-9a83-7d78038b0356")
+		)
+		(pin "2"
+			(uuid "47bcf628-78be-4f12-91b0-edd1e7978a3b")
+		)
+		(pin "3"
+			(uuid "75876ca0-905a-49d3-985c-c67237b222ed")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 123.19 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beee4d67-edce-423a-818e-e4cc72c4f3fd")
+		(property "Reference" "RV25"
+			(at 123.19 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer_Small"
+			(at 123.19 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTA1543_Single_Slide"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edf998a0-0c9f-4d2f-904e-734ba4ef4799")
+		)
+		(pin "2"
+			(uuid "93cf8ac7-781c-4af6-b530-beef24e40a16")
+		)
+		(pin "3"
+			(uuid "5acce8b8-c3a2-49b4-b8ea-bae5e09a0254")
+		)
+		(instances
+			(project "MiniMixer"
+				(path "/ee8ee06d-bf9b-4ff1-a032-7cef39182366/748dc4f4-1ea7-4eb4-b2ed-aab98cb28543"
+					(reference "RV25")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
